@@ -14,7 +14,7 @@
 = Resumo da Sintaxe da Linguagem
 
 - link:codigos/Exemplo1.java[Declaração de variáveis]
-- link:aula_dois/codigos/Exemplo2.java[Comandos de leitura e saída]
-- link:aula_dois/codigos/Exemplo3.java[Desvios condicionais simples]
-- link:aula_dois/codigos/Exemplo4.java[Desvios condicionais compostos]
-- link:aula_dois/codigos/Exemplo5.java[Laços de repetição]
+- link:codigos/Exemplo2.java[Comandos de leitura e saída]
+- link:codigos/Exemplo3.java[Desvios condicionais simples]
+- link:codigos/Exemplo4.java[Desvios condicionais compostos]
+- link:codigos/Exemplo5.java[Laços de repetição]
