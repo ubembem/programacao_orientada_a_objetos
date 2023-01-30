@@ -1,1 +1,24 @@
+//caminho padrão para imagens
 
+:figure-caption: Figura
+:doctype: book
+
+//gera apresentacao
+//pode se baixar os arquivos e add no diretório
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
+
+//GERAR ARQUIVOS
+//make slides
+//make ebook
+
+= Resumo da Sintaxe da Linguagem
+
+- link:aula_dois/codigos/Exemplo1.java[Declaração de variáveis]
+
+- link:aula_dois/codigos/Exemplo2.java[Comandos de leitura e saída]
+
+- link:aula_dois/codigos/Exemplo3.java[Desvios condicionais]
+
+- link:aula_dois/codigos/Exemplo4.java[Declaração de variáveis]
+
+- link:aula_dois/codigos/Exemplo5.java[Laços de repetição]
