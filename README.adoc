@@ -16,3 +16,4 @@
 Material de apoio com fins didáticos voltado para a compreensão dos principais conceitos sobre programação orientada a objetos.
 
 1. link:aula_um/[Comandos javac e java / verificação e instação do OPENJDK / Fundamentos de POO]
+2. link:aula_dois/[Resumo da sintaxe da linguagem / Classe x objeto / Exemplos de modelos / Continuação da sintaxe da linguagem]
