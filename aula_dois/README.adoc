@@ -37,5 +37,19 @@ Segundo Sierra e Bates (2006),
 
 - Referência dos textos entre aspas: SIERRA, S.; BATES, B. Certificação  Sun para Programador Java 6 Guia de Estudo. Rio de Janeiro: Alta Books, 2006.
 
+Exemplos práticos (modelos)
+
+- link:codigos/modelo_lampada.txt[modelo Lâmpada]
+- link:codigos/modelo_calculadora.txt[modelo Calculadora]
+
+= Resumo da Sintaxe da Linguagem (continuação)
+
+- link:codigos/Exemplo6.java[Vetores]
+- link:codigos/Exemplo7.java[Matrizes]
+
+
+
+
+
 
 
