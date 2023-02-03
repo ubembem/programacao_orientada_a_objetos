@@ -28,6 +28,14 @@ public class Exemplo {
         e[1] = "letra";
         System.out.println(e[0]);
         System.out.println(e[1]);
+        
+        int valor = 10;
+        int vetor[] = new int[4];
+        for(int i=0;i<4;i++){
+           vetor[i] = valor;
+           valor = valor+100;
+           System.out.println(vetor[i]);
+        }
 
     }
 }
