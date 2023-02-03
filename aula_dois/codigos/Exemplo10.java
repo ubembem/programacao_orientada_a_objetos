@@ -1,4 +1,4 @@
-public class Exemplo9 {
+public class Exemplo10 {
     public static void main(String[] args) {
         int m[][] = new int[2][3];
         m[0][2] = 10;
