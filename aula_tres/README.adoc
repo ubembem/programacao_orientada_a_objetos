@@ -89,6 +89,24 @@ System.out.println(c1);    //será impresso o nome do cavalo: Pé de Pano
 
 Os modificadores de acesso vão definir a visibilidade de uma classe (criar uma instância dela ou estendê-la) e acesso aos seus membros: variáveis e métodos. Inicialmente deve-se olhar se a classe é visível para as demais e depois analisar a visibilidade de seus membros. Existem quatro modificadores de acesso: public, protected, default e private.
 
+- private: Variáveis e métodos: acessados somente pela própria classe.
+
+- default: Classe, variáveis e métodos: visível apenas para todas as classes dentro de um mesmo pacote. 
+
+- protected: Variáveis e métodos: sem herança, a visibilidade funciona como o modificador default. Com herança, mesmo que a subclasse esteja fora do pacote, esta pode ter acesso aos membros.
+
+- public: Quando a classe é pública, esta é visível para todas as outras, ou seja, qualquer classe pode criar objetos dela ou estendê-la.
+Quando as variáveis e os métodos são públicos, qualquer classe pode acessá-los através dos objetos.
+
+[%header]
+|===
+| Coluna A  | Coluna B  | Coluna C
+| Célula A1 | Célula B1 | Célula C1
+| Célula A2 | Célula B2 | Célula C2
+|===
+
+
+
 
 
 
