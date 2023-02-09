@@ -24,8 +24,27 @@ Em todos os exemplos acima, temos um tipo de relacionamento entre as classes que
 
 No relacionamento de dependência entre duas classes, uma classe A precisa de alguns recursos da classe B, porém a classe B não necessita da classe A.
 Observe na figura 1 ao lado que a classe Pessoa precisa usar os dados contidos na classe Cartão, mas o contrário não acontece. A dependência é representada na codificação por um método que possui como parâmetro uma variável com o tipo da outra classe.
+
 Exemplo: public void usar(Cartao c) { ... }
 
 Figura 1
 
 image::diagrama_classe_dependencia.png[width=100,height=70]
+
+= Associação
+
+No relacionamento de associação, a classe passa a fazer parte da estrutura da outra. A associação pode ser bilateral ou unilateral.
+Observe a figura 2: uma disciplina é ministrada por um professor ou um professor ministra uma ou várias disciplinas. Na associação as classes possuem a mesma importância. Na codificação é representada por uma variável de instância.
+
+Exemplo: public class Disciplina{
+
+	private int id, cargaHoraria, vagas;
+	private String nome;
+	private Professor p;
+ 
+}
+
+Figura 2
+
+image::diagrama_classe_associacao.png[width=100,height=70]
+
