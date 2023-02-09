@@ -37,11 +37,17 @@ A versão do construtor a ser chamado vai depender da quantidade de argumentos p
 Inicialmente tem-se o hábito de acessar as variáveis de instância diretamente, por exemplo: c1.nome = "Pé de Pano", porém isto não é uma boa prática de programação, pois além das classes conhecerem detalhes internos das outras, isto pode prejudicar a manutenção de código. Dessa forma, o ideal é proteger o acesso às variáveis com o modificador private e permitir o acesso somente através do métodos getters e setters.
 
 O método é usado quando se deseja obter o valor da variável de instância.
+
  public String getNome(){
+ 
 	   return this.nome;     //neste caso, o retorno é o conteúdo da variável nome
+	   
 }
+
  public int getIdade(){
+ 
 	   return this.idade;     //neste caso, o retorno é o conteúdo da variável idade
+	   
 }
 
 O método get sempre vai ter um retorno.
