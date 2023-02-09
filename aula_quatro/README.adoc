@@ -1,0 +1,31 @@
+//caminho padrão para imagens
+ 
+:figure-caption: Figura
+:doctype: book
+
+//gera apresentacao
+//pode se baixar os arquivos e add no diretório
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
+
+//GERAR ARQUIVOS
+//make slides
+//make ebook
+
+= Relacionamentos entre Classes
+
+As classes podem ter ligações com outras classes. Essas ligações são chamadas de relacionamentos. Veja os seguintes exemplos: 
+- uma pessoa pode usar o cartão de crédito, se considerarmos Pessoa e Cartão duas classes, observe-se que é possível visualizar um relacionamento de necessidade;
+- um contador, um professor, um administrador, se fossemos representar as três classes em um sistema, os dados nome, cpf, data de nascimento são presentes nas três classes, observe-se que é possível generalizar as três classes em uma classe mais genérica chamada Pessoa;
+- um formulário pode ter um campo de texto, um botão, uma imagem. Um formulário, um campo de texto, um botão e uma imagem, todos podem ser classes em um sistema, porém, as classes campo de texto, um botão e uma imagem são partes que formam a classe Formulário, observe- se é possível visualizar um relacionamento que classes fazem parte da estrutura de um todo.
+
+Em todos os exemplos acima, temos um tipo de relacionamento entre as classes que podem ser representados no processo de codificação. Essas representações podem ser feitas via: dependência, associação, associação por agregação, associação por composição e generalização.
+
+= Dependência
+
+No relacionamento de dependência entre duas classes, uma classe A precisa de alguns recursos da classe B, porém a classe B não necessita da classe A.
+Observe na figura 1 ao lado que a classe Pessoa precisa usar os dados contidos na classe Cartão, mas o contrário não acontece. A dependência é representada na codificação por um método que possui como parâmetro uma variável com o tipo da outra classe.
+Exemplo: public void usar(Cartao c) { ... }
+
+Figura 1
+
+image::diagrama_classe_dependencia.png[width=100,height=70]
