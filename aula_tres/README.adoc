@@ -83,9 +83,12 @@ public String toString(){
 }
 
 e no método main() usarmos:
-System.out.println(c1);  //será impresso o nome do cavalo: Pé de Pano
+System.out.println(c1);    //será impresso o nome do cavalo: Pé de Pano
 
 = Modificadores de Acesso
+
+Os modificadores de acesso vão definir a visibilidade de uma classe (criar uma instância dela ou estendê-la) e acesso aos seus membros: variáveis e métodos. Inicialmente deve-se olhar se a classe é visível para as demais e depois analisar a visibilidade de seus membros. Existem quatro modificadores de acesso: public, protected, default e private.
+
 
 
 
