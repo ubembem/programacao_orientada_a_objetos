@@ -100,11 +100,19 @@ Quando as variáveis e os métodos são públicos, qualquer classe pode acessá-
 
 [%header]
 |===
-| Coluna A  | Coluna B  | Coluna C
-| Célula A1 | Célula B1 | Célula C1
-| Célula A2 | Célula B2 | Célula C2
+| Visibilidade  | Public | Protected | Default | Private
+| A partir da mesma classe | sim | sim | sim | sim
+| A partir do qualquer classe do mesmo pacote | sim | sim | sim | não
+| A partir de uma subclasse do mesmo pacote  | sim | sim | sim | não
+| A partir de uma subclasse fora do mesmo pacote  | sim | sim, através da herança | não | não
+| A partir de qualquer classe que não seja uma subclasse e esteja fora do pacote  | sim | não | não | não
 |===
 
+- Referência da tabela: SIERRA, S.; BATES, B. Certificação  Sun para Programador Java 6 Guia de Estudo. Rio de Janeiro: Alta Books, 2006.
+
+"O encapsulamento ajuda a ocultar a implementação por trás de uma interface (ou API)."
+
+- Referência do texto: SIERRA, S.; BATES, B. Certificação  Sun para Programador Java 6 Guia de Estudo. Rio de Janeiro: Alta Books, 2006.
 
 
 
