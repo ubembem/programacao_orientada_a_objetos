@@ -72,6 +72,20 @@ image::varios_para_varios.png[width=100,height=100]
 
 Tanto a agregação como a composição são tipos de associação, ou seja, uma classe vai ter  uma variável de instância do tipo de outra classe. Na agregação e na composição tem-se a ideia de todo-parte, porém com suas particularidades. Na agregação quando o todo deixa de existir, as partes podem continuar ativas no sistema. Na composição quando o todo deixa de existir, as partes devem ser excluídas no sistema.
 
+Segundo (BEZERRA, 2007, p. 123):
+
+"Agregações/composições são assimétricas, no sentido de que, se um objeto A é parte de um objeto B, o objeto B não pode ser parte do objeto A."
+
+"Nas agregações/composições, as partes são normalmente criadas e destruídas pelo todo. Na classe do objeto todo, são definidas operações para adicionar e remover as partes."
+
+- Referências dos textos entre aspas: BEZERRA, Eduardo. 2007.
+
+Exemplos práticos:
+
+- link:codigos/aula_quatro/Jogador.java[Jogador]
+- link:codigos/aula_quatro/Time.java[Time]
+- link:codigos/aula_quatro/Principal.java[Principal]
+
 = Associações e Classes Associativas / Ordinárias
 
 
