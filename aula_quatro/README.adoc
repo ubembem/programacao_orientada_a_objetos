@@ -78,13 +78,19 @@ Segundo (BEZERRA, 2007, p. 123):
 
 "Nas agregações/composições, as partes são normalmente criadas e destruídas pelo todo. Na classe do objeto todo, são definidas operações para adicionar e remover as partes."
 
-- Referências dos textos entre aspas: BEZERRA, Eduardo. 2007.
+- Referência do texto entre aspas: BEZERRA, E. Princípios de Análise e Projeto de Sistemas com UML. Rio de Janeiro: Elsevier, 2007.
 
-Exemplos práticos:
+Exemplos práticos (agregação):
 
 - link:codigos/aula_quatro/Jogador.java[Jogador]
 - link:codigos/aula_quatro/Time.java[Time]
 - link:codigos/aula_quatro/Principal.java[Principal]
+
+Exemplos práticos (composição):
+
+- link:codigos/aula_quatro/Jogador2.java[Jogador]
+- link:codigos/aula_quatro/Time2.java[Time]
+- link:codigos/aula_quatro/Principal2.java[Principal]
 
 = Associações e Classes Associativas / Ordinárias
 
