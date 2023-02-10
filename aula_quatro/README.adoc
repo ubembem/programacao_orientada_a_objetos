@@ -94,6 +94,13 @@ Exemplos práticos (composição):
 
 = Associações e Classes Associativas / Ordinárias
 
+Exemplos práticos:
+
+- link:codigos/aula_quatro/Medico.java[Medico]
+- link:codigos/aula_quatro/Consulta.java[Consulta]
+- link:codigos/aula_quatro/Paciente.java[Paciente]
+- link:codigos/aula_quatro/Principal3.java[Principal]
+
 
 
 
