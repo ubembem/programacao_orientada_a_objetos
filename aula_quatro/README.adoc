@@ -50,6 +50,24 @@ image::diagrama_classe_associacao.png[width=100,height=70]
 
 = Navegabilidade e Multiplicidade
 
+1 x 1 (A figura 3 demostra um exemplo da multiplicidade um para um)
+
+Figura 3
+
+image::um_para_um.png[width=100,height=100]
+
+1 x N (A figura 4 demostra um exemplo da multiplicidade um para vários)
+
+Figura 4
+
+image::um_para_varios.png[width=100,height=100]
+
+N x N (A figura 5 demostra um exemplo da multiplicidade vários para vários)
+
+Figura 5
+
+image::varios_para_varios.png[width=100,height=100]
+
 = Agregação x Composição
 
 Tanto a agregação como a composição são tipos de associação, ou seja, uma classe vai ter  uma variável de instância do tipo de outra classe. Na agregação e na composição tem-se a ideia de todo-parte, porém com suas particularidades. Na agregação quando o todo deixa de existir, as partes podem continuar ativas no sistema. Na composição quando o todo deixa de existir, as partes devem ser excluídas no sistema.
