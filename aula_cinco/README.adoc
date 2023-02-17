@@ -1,5 +1,5 @@
 //caminho padrão para imagens
-:imagesdir: /images
+:imagesdir: 
 :figure-caption: Figura
 :doctype: book
 
