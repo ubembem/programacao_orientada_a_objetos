@@ -20,3 +20,4 @@ Material de apoio com fins didáticos voltado para a compreensão dos principais
 3. link:aula_tres/[Construtores / Métodos get, set e toString / Modificadores de acesso / Encapsulamento]
 4. link:aula_quatro/[Relacionamentos entre Classes: Dependência / Associação / Agregação / Composição]
 5. link:aula_cinco/[Relacionamentos entre Classes: Herança]
+6. link:aula_seis/[Construtores e Herança]
