@@ -17,7 +17,7 @@ Observe na figura 1, o diagrama de classe mostra as variáveis e métodos da cla
 
 Figura 1
 
-image::diagrama_classe_cavalo.png[width=100,height=70]
+image::diagrama_classe_cavalo.png[width=100,height=100]
 
 A linguagem Java tem um recurso que tem o mesmo propósito que o método inicializar da classe Cavalo. Este recurso é chamado de construtores. As diferenças entre o construtor e o método inicializar é que o construtor é chamado apenas uma única vez durante todo o ciclo de vida, no momento da instanciação, ou seja, quando o objeto está sendo criado na memória. Construtores não possuem retorno e devem ter o mesmo nome da classe.
 
