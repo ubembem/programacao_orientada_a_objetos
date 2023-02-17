@@ -1,4 +1,42 @@
+public class Pessoa {
+
+   private String nome;
+
+   private int idade;
+
+
+   public Pessoa(String nome, int idade) {
+
+       this.nome = nome;
+
+       this.idade = idade;
+
+   }
+
+
+   //métodos getters e setters
+
+
+   @Override
+
+   public String toString() {
+
+       return "Pessoa{" +
+
+               "nome='" + nome + '\'' +
+
+               ", idade=" + idade +
+
+               '}';
+
+   }
+
+}
+
+
 import java.util.ArrayList;
+
+import java.util.Collections;
 
 import java.util.List;
 
@@ -7,29 +45,19 @@ public class Principal {
 
    public static void main(String[] args) {
 
-       List dados = new ArrayList();
+       List<Pessoa> dados = new ArrayList();
 
-       dados.add("nome");
+       dados.add(new Pessoa("Ana",20));
 
-       dados.add(12);
+       dados.add(new Pessoa("Paulo",30));
 
-       dados.add(true);
+       dados.add(new Pessoa("Rodrigo",25));
 
-       for(int i =0 ;i<dados.size();i++){
+       System.out.println(dados);
 
-           System.out.println(dados.get(i));
+       Collections.sort(dados);
 
-       }
-
-       dados.remove(true);
-
-       dados.remove(1);
-
-       for (int i=0;i<dados.size();i++){
-
-           System.out.println(dados.get(i));
-
-       }
+       System.out.println(dados);
 
    }
 
