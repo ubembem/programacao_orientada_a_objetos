@@ -33,17 +33,17 @@ image::pessoa.png[width=100,height=70]
 
 Exemplos práticos:
 
--link:um/Teste.java[Teste]
+- link:um/Teste.java[Teste]
 
--link:um/Principal.java[Principal]
+- link:um/Principal.java[Principal]
 
 Exemplos práticos:
 
--link:dois/Pessoa.java[Pessoa]
+- link:dois/Pessoa.java[Pessoa]
 
--link:dois/Contador.java[Contador]
+- link:dois/Contador.java[Contador]
 
--link:dois/Gerente.java[Gerente]
+- link:dois/Gerente.java[Gerente]
 
--link:dois/Principal.java[Principal]
+- link:dois/Principal.java[Principal]
 
