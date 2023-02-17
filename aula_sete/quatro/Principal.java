@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-import java.util.Collections;
-
 import java.util.List;
 
 
@@ -9,19 +7,29 @@ public class Principal {
 
    public static void main(String[] args) {
 
-       List<Integer> dados = new ArrayList();
+       List dados = new ArrayList();
 
-       dados.add(40);
+       dados.add("nome");
 
-       dados.add(25);
+       dados.add(12);
 
-       dados.add(30);
+       dados.add(true);
 
-       System.out.println(dados);
+       for(int i =0 ;i<dados.size();i++){
 
-       Collections.sort(dados);
+           System.out.println(dados.get(i));
 
-       System.out.println(dados);
+       }
+
+       dados.remove(true);
+
+       dados.remove(1);
+
+       for (int i=0;i<dados.size();i++){
+
+           System.out.println(dados.get(i));
+
+       }
 
    }
 
