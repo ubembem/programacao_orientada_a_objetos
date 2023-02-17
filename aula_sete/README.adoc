@@ -145,7 +145,7 @@ Exemplos práticos:
 
 = Interface Comparable
 
-Exemplo um:
+- Exemplo um:
 
 public class Pessoa implements Comparable {
 
@@ -222,7 +222,7 @@ public class Principal {
 
 }
 
-Exemplo dois:
+- Exemplo dois:
 
 public class Pessoa implements Comparable {
 
@@ -298,15 +298,3 @@ public class Principal {
    }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
