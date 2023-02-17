@@ -15,5 +15,18 @@
 
 Trata-se de um relacionamento "é-um" na qual uma classe herda os atributos (variáveis de instância) e os comportamentos (métodos). Por exemplo: para elaborar uma tela basta criar uma classe X e estender a classe JFrame (classe disponibilizada pelo JDK). A classe X já vai possuir as características e funcionalidades de uma janela. Dessa forma, não é necessário criar um método que desenhe o frame, que maximize a tela ou diminua, estas funcionalidades já vem prontas.
 
+A figura 1 mostra os atributos e comportamento da classe Contador
 
+Figura 1
 
+image::contador.png[width=100,height=70]
+
+A figura 2 mostra os atributos e comportamento da classe Gerente
+
+Figura 2
+
+image::gerente.png[width=100,height=70]
+
+A figura 3 mostra a ideia de uma classe genérica que aborda os atributos e comportamento comuns entre as classes Contador e Gerente.
+
+image::pessoa.png[width=100,height=70]
