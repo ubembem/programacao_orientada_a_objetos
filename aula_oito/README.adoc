@@ -8,7 +8,7 @@ Em muitos casos, isso permite que um programa continue a executar como se nenhum
 Referência do texto entre aspas: DEITEL, P. e DEITEL, H. Java: como programar. Tradução Edson Furmankiewicz. 
 10ª ed. São Paulo: Pearson Education do Brasil, 2017.
 
-image::excecoes.png[width=100, height=70]
+image::excecoes.png[width=100, height=50]
 
 Ambas as classes Error e Exception herdam da classe Throwable, porém estas representam grupos de classes distintas. A classe Error vai abranger as classes que representam problemas sérios e quando ocorrem não há muito o que fazer. Por exemplo: a classe VirtualMachineError pode indicar que a JVM consumiu os recursos disponíveis e precisa ser encerrada, a classe StackOverflowError indica que houve um estouro de pilha, a classe IOError indica erro grave na entrada e/ou saída de dados.
 
