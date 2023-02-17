@@ -21,6 +21,44 @@ image::uml_cavalo.png[width=100, height=70]
 
 A linguagem Java tem um recurso que tem o mesmo propósito que o método inicializar da classe Cavalo. Este recurso é chamado de construtores. As diferenças entre o construtor e o método inicializar é que o construtor é chamado apenas uma única vez durante todo o ciclo de vida, no momento da instanciação, ou seja, quando o objeto está sendo criado na memória. Construtores não possuem retorno e devem ter o mesmo nome da classe.
 
-Exemplo um:
+public class Cavalo {
+
+   String nome;
+
+   float peso;
+
+   int idade;
 
 
+   public Cavalo(String nome, float peso, int idade) {   //construtor 
+
+       this.nome = nome;
+
+       this.peso = peso;
+
+       this.idade = idade;
+
+   }
+
+} //class
+
+
+public class Principal {
+
+   public static void main(String[] args) {
+
+       Cavalo c1 = new Cavalo("Pé de Pano", 100, 5);  //o objeto do tipo Cavalo é criado já com valores atribuídos.
+
+   }
+
+}//class
+
+A versão do construtor a ser chamado vai depender da quantidade de argumentos presentes no momento da instanciação. Por exemplo:
+
+- Cavalo c1 = new Cavalo("Pé de Pano", 100, 5);    //para chamar a versão 1
+
+- Cavalo c2 = new Cavalo("Pé de Pano", 5);    //para chamar a versão 2
+
+- Cavalo c3 = new Cavalo("Pé de Pano");   //para chamar a versão 3
+
+Inicialmente tem-se o hábito de acessar as variáveis de instância diretamente, por exemplo: c1.nome = "Pé de Pano", porém isto não é uma boa prática de programação, pois além das classes conhecerem detalhes internos das outras, isto pode prejudicar a manutenção de código. Dessa forma, o ideal é proteger o acesso às variáveis com o modificador private e permite o acesso somente através do métodos getters e setters.
