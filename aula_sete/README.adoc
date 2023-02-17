@@ -141,7 +141,7 @@ Exemplos práticos:
 
 - link:tres/Principal.java[Exemplo 3]
 
-- link:quatro/Principal.java[Exemplo 4]
+- link:quatro/Pessoa_Principal.java[Exemplo 4]
 
 
 
