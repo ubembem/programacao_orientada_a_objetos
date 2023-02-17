@@ -32,5 +32,18 @@ A figura 3 mostra a ideia de uma classe genérica que aborda os atributos e comp
 image::pessoa.png[width=100,height=70]
 
 Exemplo um:
+
 -link:um/Teste.java[Teste]
+
 -link:um/Principal.java[Principal]
+
+Exemplo dois:
+
+-link:dois/Pessoa.java[Pessoa]
+
+-link:dois/Contador.java[Contador]
+
+-link:dois/Gerente.java[Gerente]
+
+-link:dois/Principal.java[Principal]
+
