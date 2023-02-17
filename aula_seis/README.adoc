@@ -1,1 +1,26 @@
+//caminho padrão para imagens
+:imagesdir: 
+:figure-caption: Figura
+:doctype: book
+
+//gera apresentacao
+//pode se baixar os arquivos e add no diretório
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
+
+//GERAR ARQUIVOS
+//make slides
+//make ebook
+
+= Construtores e Herança
+
+Observe na figura 1, o diagrama de classe mostra as variáveis e métodos da classe Cavalo. Atenção ao método inicializar, este método recebe os parâmetros para que os valores sejam atribuídos às variáveis de instância. Na atividade este método foi chamado para atribuir os valores iniciais às variáveis.
+
+Figura 1
+
+img::umlCavalo.png[width=100, height=70]
+
+A linguagem Java tem um recurso que tem o mesmo propósito que o método inicializar da classe Cavalo. Este recurso é chamado de construtores. As diferenças entre o construtor e o método inicializar é que o construtor é chamado apenas uma única vez durante todo o ciclo de vida, no momento da instanciação, ou seja, quando o objeto está sendo criado na memória. Construtores não possuem retorno e devem ter o mesmo nome da classe.
+
+Exemplo um:
+
 
