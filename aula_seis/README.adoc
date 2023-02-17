@@ -25,4 +25,20 @@ Exemplos práticos:
 
 - link:um/Principal.java[Principal]
 
+= Sobrecarga X Sobrescrita
+
+As classes herdam as características e comportamentos das superclasses. Se a classe A possui um método X e a classe B herda da classe A. A classe B possui o método X, dessa forma, a classe B pode usar essa versão herdada ou a classe B pode fazer algumas alterações no método X, ou seja, a classe B pode fazer a sobrescrita de um método. Lembre-se para ser considerado sobrescrita de método é fundamental manter a assinatura do método como o original herdado. A assinatura de um método é a junção do nome do método e os parâmetros. Já na sobrecarga o nome do método é o mesmo, porém os parâmetros são diferentes, portanto, a assinatura é outra.
+
+Por exemplo: observe os dois métodos pertencentes a classe Contador.
+
+public double calcularSalarioMensal(){  //método sobrescrito, herdado da classe Pessoa
+        return super.calcularSalarioMensal()+adicional;
+    }
+    
+public double calcularSalarioMensal(double aumento){   //método sobrecarregado, não é o mesmo método herdado da classe Pessoa
+        return (super.calcularSalarioMensal()*aumento/100)+super.calcularSalarioMensal();
+    }
+
+
+
 
