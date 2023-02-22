@@ -13,3 +13,6 @@ As coleções podem ser ordenadas, não ordenadas, classificadas e não classifi
 
 Para mais detalhes sobre a hierarquia das coleções: WIKIPEDIA. Disponível em:  https://en.wikipedia.org/wiki/Java_collections_framework#/media/File:Java.util.Collection_hierarchy.svg. Acesso em: 22 fev. 2023.
 
+- Exemplos práticos (ArrayList / LinkedList / ArrayDeque):
+
+
