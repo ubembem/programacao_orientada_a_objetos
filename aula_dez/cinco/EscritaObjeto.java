@@ -1,33 +1,35 @@
 import java.io.*;
 
 
-public class EscritaObjeto {
+public class LeituraObjeto {
 
-   public static void escrever(String caminho, Pessoa p){
+   public static void ler(String caminho){
 
        File file = new File(caminho);
 
-       FileOutputStream fileOutputStream = null;
-
        try {
 
-           fileOutputStream = new FileOutputStream(caminho);
+           FileInputStream fis = new FileInputStream(file);
 
-           ObjectOutputStream objectOutputStream =
+           ObjectInputStream ois = new ObjectInputStream(fis);
 
-                   new ObjectOutputStream(fileOutputStream);
+           Pessoa p = (Pessoa)ois.readObject();
 
-           objectOutputStream.writeObject(p);
+           ois.close();
 
-           objectOutputStream.close();
+           fis.close();
 
-           fileOutputStream.close();
+           System.out.println(p.toString());
 
        } catch (FileNotFoundException e) {
 
            e.printStackTrace();
 
        } catch (IOException e) {
+
+           e.printStackTrace();
+
+       } catch (ClassNotFoundException e) {
 
            e.printStackTrace();
 
