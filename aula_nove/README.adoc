@@ -15,8 +15,8 @@ Para mais detalhes sobre a hierarquia das coleções: WIKIPEDIA. Disponível em:
 
 Exemplos práticos (ArrayList / LinkedList / ArrayDeque):
 
--link:um/Item.java
+- link:um/Item.java[Item]
 
--link:um/ListTest.java
+- link:um/ListTest.java[ListTest]
 
 
