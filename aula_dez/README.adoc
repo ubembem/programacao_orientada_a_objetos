@@ -32,3 +32,9 @@ Exemplos práticos(Escrita de Texto)
 
 Observe que ao se usar FileWriter o arquivo será criado, caso não exista. Caso este já exista, o conteúdo será sobrescrito. Caso o desejo seja anexar os conteúdos no arquivo e não sobrescrevê-lo, use FileWriter fw = new FileWriter(caminho, true). 
 
+Exemplos práticos(Leitura de Texto)
+
+- link:dois/LeituraArquivo.java[EscritaTexto]
+
+- link:dois/Principal.java[Principal]
+
