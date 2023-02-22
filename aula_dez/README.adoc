@@ -1,0 +1,28 @@
+= Arquivos
+
+A classe Java oferece classes e métodos que permitem a persistência/leitura de dados em arquivos. Os dados podem ser gravados em arquivo de texto e binário.
+No arquivo de texto todos os dados persistidos no arquivo são convertidos no tipo char. No arquivo binário os dados persistidos seguem a mesma estrutura
+como são representados na memória RAM, por exemplo, se você gravar uma variável inteiro em um arquivo binário, este vai ocupar 32 bits no arquivo da mesma 
+forma como ocupa na memória RAM.
+
+Vamos supor que seja criado um programa para persistir o seguinte valor:
+
+int x = 12345678;
+
+Se o valor de x for persistido em um arquivo de texto, cada caractere será convertido em 8 bits
+
+1: 8
+2: 8
+3: 8
+4: 8
+5: 8
+6: 8
+7: 8
+8: 8
+
+portanto, o arquivo ocuparia 64 bits. Porém, se o valor de x for persistido em um arquivo binário, o arquivo ocuparia 32 bits, pois é o valor que um inteiro 
+ocupa na memória. Se este arquivo binário fosse aberto em um aplicativo de texto (bloco de notas) faltaria dados para representar a informação, pois um 
+arquivo de texto precisade no mínimo 8 bits para representar um caractere.
+
+
+
