@@ -115,9 +115,12 @@ Exemplos práticos(Escrita de objetos)
 
 Exemplos práticos(Leitura de objetos)
 
-- link:cinco/Pessoa.java[Pessoa]
+- link:seis/Pessoa.java[Pessoa]
 
-- link:cinco/EscritaObjeto.java[EscritaObjeto]
+- link:seis/LeituraObjeto.java[LeituraObjeto]
+
+- link:seis/Principal.java[Principal]
+
 
 
 
