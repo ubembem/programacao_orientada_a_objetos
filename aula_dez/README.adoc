@@ -34,7 +34,7 @@ Observe que ao se usar FileWriter o arquivo será criado, caso não exista. Caso
 
 Exemplos práticos(Leitura de Texto)
 
-- link:dois/LeituraArquivo.java[LeituraArquivo]
+- link:dois/LeituraTexto.java[LeituraTexto
 
 - link:dois/Principal.java[Principal]
 
