@@ -93,8 +93,14 @@ public class LeituraArquivo {
 
 }//class
 
-Exemplos práticos(Escrita Binária)
+Exemplos práticos(Escrita Binário)
 
--link:tres/EscritaBinaria[EscritaBinaria]
+-link:tres/EscritaBinario[EscritaBinario]
 
 -link:tres/Principal.java[Principal]
+
+Exemplos práticos(Leitura Binário)
+
+-link:quatro/LeituraBinario[LeituraBinario]
+
+-link:quatro/Principal.java[Principal]
