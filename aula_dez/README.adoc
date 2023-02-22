@@ -24,5 +24,11 @@ portanto, o arquivo ocuparia 64 bits. Porém, se o valor de x for persistido em 
 ocupa na memória. Se este arquivo binário fosse aberto em um aplicativo de texto (bloco de notas) faltaria dados para representar a informação, pois um 
 arquivo de texto precisade no mínimo 8 bits para representar um caractere.
 
+Exemplos práticos(Escrita de Texto)
+
+- link: um/EscritaTexto.java[EscritaTexto]
+
+- link: um/Principal.java[Principal]
+
 
 
