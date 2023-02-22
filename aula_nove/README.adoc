@@ -19,4 +19,9 @@ Exemplos práticos (ArrayList / LinkedList / ArrayDeque):
 
 - link:um/ListTest.java[ListTest]
 
+Exemplos práticos (HashSet / LinkedHashSet / TreeSet):
+
+- link:um/Item.java[Item]
+
+- link:um/SetTest.java[SetTest]
 
