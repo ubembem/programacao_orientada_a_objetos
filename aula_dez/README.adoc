@@ -95,12 +95,29 @@ public class LeituraArquivo {
 
 Exemplos práticos(Escrita Binário)
 
--link:tres/EscritaBinario[EscritaBinario]
+- link:tres/EscritaBinario[EscritaBinario]
 
--link:tres/Principal.java[Principal]
+- link:tres/Principal.java[Principal]
 
 Exemplos práticos(Leitura Binário)
 
--link:quatro/LeituraBinario[LeituraBinario]
+- link:quatro/LeituraBinario[LeituraBinario]
 
--link:quatro/Principal.java[Principal]
+- link:quatro/Principal.java[Principal]
+
+Exemplos práticos(Escrita de objetos)
+
+- link:cinco/Pessoa.java[Pessoa]
+
+- link:cinco/EscritaObjeto.java[EscritaObjeto]
+
+- link:cinco/Principal.java[Principal]
+
+Exemplos práticos(Leitura de objetos)
+
+- link:cinco/Pessoa.java[Pessoa]
+
+- link:cinco/EscritaObjeto.java[EscritaObjeto]
+
+
+
