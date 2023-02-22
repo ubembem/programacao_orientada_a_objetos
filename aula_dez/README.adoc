@@ -38,3 +38,59 @@ Exemplos práticos(Leitura de Texto)
 
 - link:dois/Principal.java[Principal]
 
+VERSÃO 2 da classe Leitura.java
+
+import java.io.BufferedReader;
+
+import java.io.FileNotFoundException;
+
+import java.io.FileReader;
+
+import java.io.IOException;
+
+
+public class LeituraArquivo {
+
+   public static void ler(String caminho){
+
+       try {
+
+           FileReader fileReader = new FileReader(caminho);
+
+           BufferedReader br = new BufferedReader(fileReader);
+
+           String texto = null;
+
+           StringBuilder msgFinal = new StringBuilder();
+
+           do{
+
+               texto = br.readLine();
+
+               if(texto!=null){
+
+                   msgFinal.append(texto).append("\n");
+
+               }
+
+           }while(texto!=null);
+
+           br.close();
+
+           JOptionPane.showMessageDialog(null,msgFinal.toString());
+
+       } catch (FileNotFoundException e) {
+
+           e.printStackTrace();
+
+       } catch (IOException e) {
+
+           e.printStackTrace();
+
+       }
+
+   }
+
+}//class
+
+
